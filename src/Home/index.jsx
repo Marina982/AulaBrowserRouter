@@ -6,14 +6,29 @@ import Footer from "../components/Footer";
 
 export default function Home(){
 
+    const [listaProdutos, setProduto] = useState([
+        {id: 1, Nome: "jogo1", preco: "10,20"},
+        {id: 2, Nome: "jogo2", preco: "17,20"},
+        {id: 3, Nome: "jogo3", preco: "33,20"},
+        {id: 3, Nome: "jogo3", preco: "33,20"},
+        {id: 3, Nome: "jogo3", preco: "33,20"}
+]);
+
     return(
         <>
 
-        <h2>Jogos</h2>
-
+{
+          listaProdutos.map((jogos)=>
+            <div key={jogos.id}>
+              <p>{jogos.Nome}</p>
+              <p>{jogos.preco}</p>
+              <button onClick={()=> adicionarJogos(jogos)}>Selecionar</button>
+            </div>    )
+        }
         
+     <Header title={"Jogos"}/>
+    
         
-        <Header/>
 
 
         <Carousel
@@ -41,6 +56,10 @@ export default function Home(){
 
       
             </Carousel>
+            
+
+
+
 
         <Footer title={"Desenvolvedor: Marina Goes"} />
 
@@ -48,4 +67,7 @@ export default function Home(){
         </>
         
     );
+
+
+
 }
