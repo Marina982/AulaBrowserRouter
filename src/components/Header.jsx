@@ -1,8 +1,11 @@
 import { Link } from "react-router-dom";
 
+
 export default function Header(){
 
     return(
+
+
         <>
 
         <nav>
@@ -12,6 +15,9 @@ export default function Header(){
     </Link>
     <Link to="/oferta">
     <li>Ofertas</li>
+    </Link>
+    <Link to="/produtos">
+    <li>Produtos</li>
     </Link>
 </ul>
         </nav>
