@@ -160,7 +160,7 @@ export default function Oferta(){
 
 
          <div className="RodaOfer">
-            <Footer title={"Desenvolvedor"}/>
+            <Footer title={"Desenvolvedor: Marina Goes"}/>
          </div>
          
          </div>
