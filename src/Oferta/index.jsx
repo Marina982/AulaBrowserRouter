@@ -1,6 +1,22 @@
+import Header from "../components/Header"
+import Footer from "../components/Footer"
+import "../globals.css";
+
 export default function Oferta(){
 
     return(
-        <p>Minha Oferta</p>
+        <>
+         <Header title={"Ofertas"}/>
+
+
+
+
+
+         
+         <Footer title={"Desenvolvedor: Marina Goes"} />
+        </>
+         
     )
+
+    
 }
