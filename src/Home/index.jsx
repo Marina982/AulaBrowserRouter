@@ -3,9 +3,89 @@ import { Carousel } from "react-responsive-carousel";
 import 'react-responsive-carousel/lib/styles/carousel.min.css'
 import "../globals.css";
 import Footer from "../components/Footer";
+import { useState } from "react";
 
 
 export default function Home(){
+
+    const [listaProdutos, setProdutos] = useState([
+        {
+
+            id: 1,
+
+            item: "Tenis1",
+
+            imagem: "https://static.netshoes.com.br/produtos/tenis-adidas-breaknet-feminino/90/NQQ-4379-890/NQQ-4379-890_zoom1.jpg?ts=1711641809&ims=326x",
+
+            preco: "R$ 99,99"
+
+        },
+
+        {
+
+            id: 2,
+
+            item: "Tenis 2",
+
+            imagem: "https://static.netshoes.com.br/produtos/tenis-mizuno-wave-titan-2-masculino/06/2FU-6367-006/2FU-6367-006_zoom1.jpg?ts=1714414001&ims=326x",
+
+            preco: "R$ 99,99"
+
+        },
+
+        {
+
+            id: 3,
+
+            item: "Tenis 3",
+
+            imagem: "https://static.netshoes.com.br/produtos/tenis-adidas-breaknet-masculino/90/NQQ-4378-890/NQQ-4378-890_zoom1.jpg?ts=1705939673&ims=326x",
+
+            preco: "R$ 99,99"
+
+        },
+
+        {
+
+            id: 4,
+
+            item: "Tenis 4",
+
+            imagem: "https://static.netshoes.com.br/produtos/tenis-adidas-breaknet-masculino/26/NQQ-4378-326/NQQ-4378-326_zoom1.jpg?ts=1705669997&ims=326x",
+
+            preco: "R$ 99,99"
+
+        },
+        {
+
+            id: 5,
+
+            item: "Tenis 5",
+
+            imagem: "https://static.netshoes.com.br/produtos/tenis-adidas-response-runner/26/FB9-3696-026/FB9-3696-026_zoom1.jpg?ts=1721239502&ims=326x",
+
+            preco: "R$ 99,99"
+
+        },
+     
+
+        
+
+        
+
+
+    ]);
+
+    const [listaPedidos, setPedidos] = useState([]);
+    const adicionarProdutoPedido = (produto) => {
+        setPedidos([...listaPedidos, produto]);
+
+     }
+
+
+
+
+
 
 
     return(
@@ -14,8 +94,6 @@ export default function Home(){
      <Header title={"Sapatos"}/>
     
         
-
-
         <Carousel
                 infiniteLoop
                 useKeyboardArrows
@@ -41,11 +119,30 @@ export default function Home(){
 
       
             </Carousel>
+
+
+            <div>
             
+        <div className="bloco-principal">
+        <div className="bloco-produtos">
+        {
+            listaProdutos.map((produto) =>
+            <div key={produto.id}>
+                <img src={produto.imagem}/>
+<p>{produto.item}</p>
+<p>{produto.preco}</p>
+<button onClick={() =>
+     adicionarProdutoPedido(produto)}>Comprar</button>
+            </div>
+            )
+        }
+         </div>
+         </div>
 
-
-
-
+         
+         </div>
+            
+            
         <div className="rodaape">
         <Footer title={"Desenvolvedor: Marina Goes"} />
         </div>

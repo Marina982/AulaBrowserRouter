@@ -136,7 +136,8 @@ export default function Oferta(){
 
     return(
         <div>
-             <Header title={"Sapatos Oferta!!"}/>
+            <div> <Header title={"Sapatos Oferta!!"}/></div>
+            
         
 
         
@@ -149,13 +150,17 @@ export default function Oferta(){
 <p>{produto.item}</p>
 <p>{produto.preco}</p>
 <button onClick={() =>
-     adicionarProdutoPedido(produto)}>Adicionar</button>
+     adicionarProdutoPedido(produto)}>Comprar</button>
             </div>
             )
         }
          </div>
          </div>
+
+         
          </div>
+
+         
     )
 
 
