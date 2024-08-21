@@ -4,6 +4,8 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css'
 import "../globals.css";
 import Footer from "../components/Footer";
 import { useState } from "react";
+import ListarProdutos from "../components/ListarProdutos";
+
 
 
 export default function Home(){
@@ -121,26 +123,17 @@ export default function Home(){
             </Carousel>
 
 
-            <div>
             
-        <div className="bloco-principal">
-        <div className="bloco-produtos">
-        {
-            listaProdutos.map((produto) =>
-            <div key={produto.id}>
-                <img src={produto.imagem}/>
-<p>{produto.item}</p>
-<p>{produto.preco}</p>
-<button onClick={() =>
-     adicionarProdutoPedido(produto)}>Comprar</button>
-            </div>
-            )
-        }
-         </div>
-         </div>
-
+            
+    
+    
+        <div>
+         <ListarProdutos title={"Lista de produtos"} 
+         listaProdutos={listaProdutos} 
+         adicionarProdutoPedido={adicionarProdutoPedido}/>
+</div>
          
-         </div>
+        
             
             
         <div className="rodaape">

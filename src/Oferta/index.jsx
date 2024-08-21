@@ -157,8 +157,14 @@ export default function Oferta(){
          </div>
          </div>
 
+
+
+         <div className="RodaOfer">
+            <Footer title={"Desenvolvedor"}/>
+         </div>
          
          </div>
+
 
          
     )
