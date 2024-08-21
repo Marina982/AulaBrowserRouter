@@ -136,7 +136,7 @@ export default function Oferta(){
 
     return(
         <div>
-            <div> <Header title={"Sapatos Oferta!!"}/></div>
+            <div className="cab"> <Header title={"SHO&S Oferta!!"}/></div>
             
         
 
@@ -159,7 +159,7 @@ export default function Oferta(){
 
 
 
-         <div className="RodaOfer">
+         <div className="rodaape">
             <Footer title={"Desenvolvedor: Marina Goes"}/>
          </div>
          

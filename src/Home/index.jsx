@@ -92,8 +92,9 @@ export default function Home(){
 
     return(
         <>
-
-     <Header title={"Sapatos"}/>
+<div className="cab">
+     <Header title={"SHO&S"}/>
+     </div>
     
         
         <Carousel
@@ -104,7 +105,7 @@ export default function Home(){
                 showStatus={false}
                 showThumbs={false}
                 dynamicHeight
-             >
+             className="carousel">
                 <div>
                     <img src="https://static.netshoes.com.br/bnn/l_netshoes/2024-08-19/1702_desk_sportstyle.png" alt="Slide 1" />
                 

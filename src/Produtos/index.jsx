@@ -189,7 +189,9 @@ export default function Produtos(){
 
     return(
         <div>
-            <div> <Header title={"Todos"}/></div>
+            <div className="cab"> 
+                <Header title={"SHO&S: Todos"}/>
+            </div>
             
         
 
@@ -210,7 +212,9 @@ export default function Produtos(){
          </div>
          </div>
 
-         
+         <div className="rodaape">
+            <Footer title={"Desenvolvedor: Marina Goes"}/>
+         </div>
          </div>
     )
 }
