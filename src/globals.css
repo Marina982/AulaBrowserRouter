@@ -21,6 +21,9 @@ html{
     text-decoration: none;
 }
 
+a{
+    text-decoration: none;
+}
 
 .rodaape{
     height: 70px;
@@ -66,6 +69,7 @@ justify-content: center;
 text-align: center;
 margin-bottom: 30px;
 gap: 15px;
+
 }
 
 .bloco-produtos div{
@@ -103,12 +107,18 @@ button{
     border-radius: 5px;
     border-style: none;
     margin: 30px;
+    cursor: pointer;
 }
 
 .carousel{
     border-radius: 10px;
     margin-top: 50px;
 
+}
+
+.propriedades{
+    margin: 2px;
+    margin-bottom: 2px;
 }
 
 

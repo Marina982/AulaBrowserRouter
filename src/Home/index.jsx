@@ -19,7 +19,9 @@ export default function Home(){
 
             imagem: "https://static.netshoes.com.br/produtos/tenis-adidas-breaknet-feminino/90/NQQ-4379-890/NQQ-4379-890_zoom1.jpg?ts=1711641809&ims=326x",
 
-            preco: "R$ 99,99"
+            preco: "R$ 99,99",
+
+            marca: "Adidas"
 
         },
 
@@ -31,7 +33,9 @@ export default function Home(){
 
             imagem: "https://static.netshoes.com.br/produtos/tenis-mizuno-wave-titan-2-masculino/06/2FU-6367-006/2FU-6367-006_zoom1.jpg?ts=1714414001&ims=326x",
 
-            preco: "R$ 99,99"
+            preco: "R$ 99,99",
+
+            marca: "Asics"
 
         },
 
@@ -43,7 +47,9 @@ export default function Home(){
 
             imagem: "https://static.netshoes.com.br/produtos/tenis-adidas-breaknet-masculino/90/NQQ-4378-890/NQQ-4378-890_zoom1.jpg?ts=1705939673&ims=326x",
 
-            preco: "R$ 99,99"
+            preco: "R$ 99,99",
+
+            marca: "Adidas"
 
         },
 
@@ -55,7 +61,9 @@ export default function Home(){
 
             imagem: "https://static.netshoes.com.br/produtos/tenis-adidas-breaknet-masculino/26/NQQ-4378-326/NQQ-4378-326_zoom1.jpg?ts=1705669997&ims=326x",
 
-            preco: "R$ 99,99"
+            preco: "R$ 99,99",
+
+            marca: "Adidas"
 
         },
         {
@@ -66,7 +74,9 @@ export default function Home(){
 
             imagem: "https://static.netshoes.com.br/produtos/tenis-adidas-response-runner/26/FB9-3696-026/FB9-3696-026_zoom1.jpg?ts=1721239502&ims=326x",
 
-            preco: "R$ 99,99"
+            preco: "R$ 99,99",
+
+            marca: "Adidas"
 
         },
      
@@ -77,6 +87,8 @@ export default function Home(){
 
 
     ]);
+
+    
 
     const [listaPedidos, setPedidos] = useState([]);
     const adicionarProdutoPedido = (produto) => {
@@ -129,7 +141,7 @@ export default function Home(){
     
     
         <div>
-         <ListarProdutos title={"Lista de produtos"} 
+         <ListarProdutos 
          listaProdutos={listaProdutos} 
          adicionarProdutoPedido={adicionarProdutoPedido}/>
 </div>
