@@ -145,6 +145,14 @@ button:focus{
     margin-bottom: 2px;
 }
 
+.descpers{
+font-size: 14px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+width: auto;
+flex-wrap: wrap;
+flex-direction: column;
+gap: 2px;
+}
 
 
 

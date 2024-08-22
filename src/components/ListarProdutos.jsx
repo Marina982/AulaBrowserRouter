@@ -13,6 +13,14 @@ export default function ListarProdutos({listaProdutos, adicionarProdutoPedido}){
 <p>{produto.item}</p>
 <p>{produto.preco}</p>
 <p>{produto.marca}</p>
+
+{
+   produto.descricao.map((descricao) => 
+    <p key={descricao} className="descpers">{descricao}</p>
+    
+   )
+}
+
 <button onClick={() =>
      adicionarProdutoPedido(produto)}>Comprar</button>
             </div>
