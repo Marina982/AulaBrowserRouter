@@ -1,16 +1,9 @@
 import { Link } from "react-router-dom";
 import "../globals.css";
 
-export default function ListarProdutos({title, listaProdutos, adicionarProdutoPedido}){
+export default function ListarProdutos({listaProdutos, adicionarProdutoPedido}){
     return(
-<div>
-        <div>
-        <h1>{title}</h1>
-        </div>
-<div>
 
-
-        
         <div className="bloco-principal">
         <div className="bloco-produtos">
         {
@@ -20,16 +13,14 @@ export default function ListarProdutos({title, listaProdutos, adicionarProdutoPe
 <p>{produto.item}</p>
 <p>{produto.preco}</p>
 <p>{produto.marca}</p>
-<p>{produto.descricao}</p>
 <button onClick={() =>
-     adicionarProdutoPedido(produto)}>Adicionar</button>
+     adicionarProdutoPedido(produto)}>Comprar</button>
             </div>
             )
         }
         </div>
         </div>
-        </div>
-        </div>
+    
         
     )
 }
