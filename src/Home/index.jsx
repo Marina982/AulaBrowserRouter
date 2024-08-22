@@ -148,7 +148,7 @@ export default function Home(){
                 showThumbs={false}
                 dynamicHeight
              className="carousel">
-                <div>
+                <div className="carou">
                     <img src="https://static.netshoes.com.br/bnn/l_netshoes/2024-08-19/1702_desk_sportstyle.png" alt="Slide 1" />
                 
                 </div>

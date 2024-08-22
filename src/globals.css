@@ -2,6 +2,7 @@ body{
     width: 100%;
     height: 100%;
     margin: 0;
+    background-color: rgb(235, 234, 234);
 }
 
 html{
@@ -127,13 +128,16 @@ button:focus{
     background: rgb(26, 26, 26);
 }
 
-
+.carousel img {
+    width: 150%;
+    height: 150%;
+    object-fit: cover;
+}
 
 .carousel{
     border-radius: 2px;
     margin-top: 50px;
-    height: 200px;
-
+    
 }
 
 .propriedades{
@@ -178,6 +182,10 @@ button{
 img{
     width: 100%;
 }
+.carousel img{
+width: 100%;
+height: 100%;
+}
 
 }
 
@@ -214,7 +222,10 @@ img{
         width: 100%;
        }
 
-
+       .carousel img{
+        width: 120%;
+        height: 120%;
+        }
 }
 
 
