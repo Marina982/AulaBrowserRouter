@@ -180,7 +180,7 @@ export default function Home(){
         <div>
          <ListarProdutos 
          listaProdutos={listaProdutos} 
-         adicionarProdutoPedido={adicionarProdutoPedido}/>
+         />
 </div>
          
         

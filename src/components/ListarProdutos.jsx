@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import "../globals.css";
 
-export default function ListarProdutos({listaProdutos, adicionarProdutoPedido}){
+export default function ListarProdutos({listaProdutos}){
     return(
 
         <div className="bloco-principal">
