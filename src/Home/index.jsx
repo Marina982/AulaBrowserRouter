@@ -25,7 +25,7 @@ export default function Home(){
 
             descricao:[
                 "Social, ",
-                "Branco"
+                "Branco e Listras Pretas"
             ]
 
         },
@@ -33,7 +33,7 @@ export default function Home(){
 
             id: 10,
 
-            item: "Adidas Social",
+            item: "Tenis Breaknet LIfestyle",
 
             imagem: "https://static.netshoes.com.br/produtos/tenis-adidas-breaknet-masculino/44/NQQ-4378-044/NQQ-4378-044_zoom1.jpg?ts=1706119674&ims=326x",
 
@@ -43,7 +43,7 @@ export default function Home(){
 
             descricao:[
                 "Social, ",
-                "Branco"
+                "Branco com Listras",
             ]
 
         },
@@ -61,7 +61,7 @@ export default function Home(){
             marca: "EverLast",
 
             descricao:[
-                "Social, ",
+                "Esportivo, ",
                 "Branco"
             ]
 
@@ -82,8 +82,8 @@ export default function Home(){
             marca: "PUMA",
 
             descricao:[
-                "Social, ",
-                "Branco"
+                "Casual, ",
+                "Vermelho"
             ]
 
             
@@ -93,7 +93,7 @@ export default function Home(){
 
             id: 6,
 
-            item: "Adidas Casual",
+            item: "Adidas VS Pace 2.0",
 
             imagem: "https://static.netshoes.com.br/produtos/tenis-adidas-vs-pace-20-masculino/24/FB9-3767-024/FB9-3767-024_zoom2.jpg?ts=1715088300&ims=326x",
 
@@ -103,7 +103,7 @@ export default function Home(){
 
             descricao:[
                 "Social, ",
-                "Branco"
+                "Branco com listras"
             ]
 
             

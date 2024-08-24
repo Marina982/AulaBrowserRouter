@@ -18,7 +18,7 @@ export default function Produtos(){
             marca: "Adidas",
 
             descricao:[
-                "Social, ",
+                "Social,",
                 "Branco"
             ]
 
@@ -66,7 +66,7 @@ export default function Produtos(){
 
             id: 4,
 
-            item: "Adidas Casual",
+            item: "Tênis Adidas Breaknet",
 
             imagem: "https://static.netshoes.com.br/produtos/tenis-adidas-breaknet-masculino/26/NQQ-4378-326/NQQ-4378-326_zoom1.jpg?ts=1705669997&ims=326x",
 
@@ -102,7 +102,7 @@ export default function Produtos(){
 
             id: 6,
 
-            item: "Adidas Casual",
+            item: "Adidas VS Pace 2.0",
 
             imagem: "https://static.netshoes.com.br/produtos/tenis-adidas-vs-pace-20-masculino/24/FB9-3767-024/FB9-3767-024_zoom2.jpg?ts=1715088300&ims=326x",
 
@@ -142,7 +142,7 @@ export default function Produtos(){
 
             id: 8,
 
-            item: "Puma Social",
+            item: "Puma Smash",
 
             imagem: "https://static.netshoes.com.br/produtos/tenis-puma-smash-v2/26/D14-4129-026/D14-4129-026_zoom2.jpg?ts=1705507349&ims=326x",
 
@@ -181,7 +181,7 @@ export default function Produtos(){
 
             id: 10,
 
-            item: "Adidas Social",
+            item: "Tenis Breaknet LIfestyle",
 
             imagem: "https://static.netshoes.com.br/produtos/tenis-adidas-breaknet-masculino/44/NQQ-4378-044/NQQ-4378-044_zoom1.jpg?ts=1706119674&ims=326x",
 
@@ -199,7 +199,7 @@ export default function Produtos(){
 
             id: 11,
 
-            item: "Adidas Casual",
+            item: "Tenis Advantage 2.0",
 
             imagem: "https://static.netshoes.com.br/produtos/tenis-adidas-advantage-2-0-masculino/14/FB9-8934-114/FB9-8934-114_zoom1.jpg?ts=1723030449&ims=326x",
 
@@ -218,7 +218,7 @@ export default function Produtos(){
 
             id: 12,
 
-            item: "Adidas Casual",
+            item: "Tenis Adidas VI Court Base",
 
             imagem: "https://static.netshoes.com.br/produtos/tenis-masculino-adidas-vl-court-base-/34/FB9-3766-134/FB9-3766-134_zoom2.jpg?ts=1711639183&ims=326x",
 
@@ -237,7 +237,7 @@ export default function Produtos(){
 
             id: 13,
 
-            item: "Adidas Social",
+            item: "Tenis Advantage",
 
             imagem: "https://static.netshoes.com.br/produtos/tenis-adidas-advantage-base-masculino/90/NQQ-0065-890/NQQ-0065-890_zoom2.jpg?ts=1712587528&ims=326x",
 
@@ -256,7 +256,7 @@ export default function Produtos(){
 
             id: 14,
 
-            item: "Adidas Social",
+            item: "Tenis Adidas Grand Court",
 
             imagem: "https://static.netshoes.com.br/produtos/tenis-masculino-adidas-grand-court-base/26/FB8-5623-226/FB8-5623-226_zoom2.jpg?ts=1713275762&ims=326x",
 
@@ -276,7 +276,7 @@ export default function Produtos(){
 
             id: 15,
 
-            item: "Adidas Social",
+            item: "Tenis Adidas Alpha",
 
             imagem: "https://static.netshoes.com.br/produtos/tenis-couro-adidas-grand-court-alpha-masculino/36/FB9-8951-036/FB9-8951-036_zoom1.jpg?ts=1717501257&ims=326x",
 

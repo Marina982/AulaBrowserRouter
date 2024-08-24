@@ -68,7 +68,7 @@ export default function Oferta(){
 
             id: 4,
 
-            item: "Adidas Casual",
+            item: "Tênis Adidas Breaknet",
 
             imagem: "https://static.netshoes.com.br/produtos/tenis-adidas-breaknet-masculino/26/NQQ-4378-326/NQQ-4378-326_zoom1.jpg?ts=1705669997&ims=326x",
 
@@ -104,7 +104,7 @@ export default function Oferta(){
 
             id: 6,
 
-            item: "Adidas Casual",
+            item: "Adidas VS Pace 2.0",
 
             imagem: "https://static.netshoes.com.br/produtos/tenis-adidas-vs-pace-20-masculino/24/FB9-3767-024/FB9-3767-024_zoom2.jpg?ts=1715088300&ims=326x",
 
@@ -144,7 +144,7 @@ export default function Oferta(){
 
             id: 8,
 
-            item: "Puma Social",
+            item: "Puma Smash",
 
             imagem: "https://static.netshoes.com.br/produtos/tenis-puma-smash-v2/26/D14-4129-026/D14-4129-026_zoom2.jpg?ts=1705507349&ims=326x",
 
@@ -183,7 +183,7 @@ export default function Oferta(){
 
             id: 10,
 
-            item: "Adidas Social",
+            item: "Tenis Breaknet LIfestyle",
 
             imagem: "https://static.netshoes.com.br/produtos/tenis-adidas-breaknet-masculino/44/NQQ-4378-044/NQQ-4378-044_zoom1.jpg?ts=1706119674&ims=326x",
 
