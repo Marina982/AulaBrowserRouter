@@ -298,11 +298,7 @@ export default function Produtos(){
 
 
     ]);
-    const [listaPedidos, setPedidos] = useState([]);
-    const adicionarProdutoPedido = (produto) => {
-        setPedidos([...listaPedidos, produto]);
-
-     }
+    
     
 
     return(
@@ -316,7 +312,7 @@ export default function Produtos(){
             <div>
          <ListarProdutos 
          listaProdutos={listaProdutos} 
-         adicionarProdutoPedido={adicionarProdutoPedido}/>
+         />
 </div>
 
          <div className="rodaape">

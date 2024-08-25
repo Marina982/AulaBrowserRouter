@@ -204,12 +204,8 @@ export default function Oferta(){
     ]);
 
 
-    const [listaPedidos, setPedidos] = useState([]);
-    const adicionarProdutoPedido = (produto) => {
-        setPedidos([...listaPedidos, produto]);
-
-     }
-
+   
+     
 
     return(
         <div>
@@ -219,7 +215,7 @@ export default function Oferta(){
             <div>
          <ListarProdutos 
          listaProdutos={listaProdutos} 
-         adicionarProdutoPedido={adicionarProdutoPedido}/>
+         />
 </div>
 
 

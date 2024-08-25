@@ -118,18 +118,6 @@ export default function Home(){
 
     ]);
 
-    
-
-    const [listaPedidos, setPedidos] = useState([]);
-    const adicionarProdutoPedido = (produto) => {
-        setPedidos([...listaPedidos, produto]);
-
-     }
-
-
-
-
-
 
 
     return(
