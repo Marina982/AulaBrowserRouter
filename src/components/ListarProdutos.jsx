@@ -10,7 +10,7 @@ export default function ListarProdutos({listaProdutos}){
             <div key={produto.id} className="propriedades">
                 <img src={produto.imagem}/>
 <p>{produto.item}</p>
-<p>{produto.preco}</p>
+<p className="preco">{produto.preco}</p>
 <p>{produto.marca}</p>
 
 {

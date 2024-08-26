@@ -151,7 +151,13 @@ flex-direction: column;
 gap: 2px;
 }
 
+.preco{
+    color: red;
+}
 
+.descpers{
+    font-size: 13px;
+}
 
 
 
