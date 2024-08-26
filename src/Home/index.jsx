@@ -105,17 +105,7 @@ export default function Home(){
                 "Social, ",
                 "Branco com listras"
             ]
-
-            
-
         },
-     
-
-        
-
-        
-
-
     ]);
 
 
@@ -153,36 +143,17 @@ export default function Home(){
                     <img src="https://static.netshoes.com.br/bnn/l_netshoes/2024-06-16/2708_full-desktop.jpg" alt="Slide 1" />
                 
                 </div>
-
-                
-
-                
-      
             </Carousel>
 
-
-            
-            
-    
-    
         <div>
          <ListarProdutos 
          listaProdutos={listaProdutos} 
          />
-</div>
-         
-        
-            
-            
+        </div>
+          
         <div className="rodaape">
         <Footer title={"Desenvolvedor: Marina Goes"} />
         </div>
-
-        
-        </>
-        
+        </>       
     );
-
-
-
 }

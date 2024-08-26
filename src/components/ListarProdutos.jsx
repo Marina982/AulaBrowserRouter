@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import "../globals.css";
 
 export default function ListarProdutos({listaProdutos}){
@@ -30,5 +29,5 @@ export default function ListarProdutos({listaProdutos}){
         </div>
     
         
-    )
+    );
 }

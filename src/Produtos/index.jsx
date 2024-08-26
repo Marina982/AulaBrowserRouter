@@ -288,27 +288,15 @@ export default function Produtos(){
                 "Social, ",
                 "Branco"
             ]
-
-
         },
-
-
-
-        
-
-
     ]);
     
-    
-
     return(
         <div>
             <div className="cab"> 
                 <Header title={"SHO&S: Todos"}/>
             </div>
             
-        
-
             <div>
          <ListarProdutos 
          listaProdutos={listaProdutos} 
@@ -319,5 +307,5 @@ export default function Produtos(){
             <Footer title={"Desenvolvedor: Marina Goes"}/>
          </div>
          </div>
-    )
+    );
 }

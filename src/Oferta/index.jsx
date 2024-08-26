@@ -197,15 +197,7 @@ export default function Oferta(){
             ]
 
         },
-
-        
-
-
     ]);
-
-
-   
-     
 
     return(
         <div>
@@ -216,20 +208,11 @@ export default function Oferta(){
          <ListarProdutos 
          listaProdutos={listaProdutos} 
          />
-</div>
-
-
+           </div>
 
          <div className="rodaape">
             <Footer title={"Desenvolvedor: Marina Goes"}/>
          </div>
-         
          </div>
-
-
-         
-    )
-
-
-    
+    );
 }
